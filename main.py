@@ -38,6 +38,8 @@ class Axe(Weapon):
         print("Игрок наносит удар топором")
         return random.randint(15, 30)
 
+# Класс монстра
+
 class Monster():
     def __init__(self, hp):
         self.hp = hp
